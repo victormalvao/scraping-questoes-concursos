@@ -1,10 +1,10 @@
-# Scraping de Questoes de Exames
+# Scraping de Questões de Exames
 
-Este repositorio registra a proposta de uma ferramenta para coletar, filtrar e visualizar questoes de exames, com foco em ENEM e concursos.
+Este repositório registra a proposta de uma ferramenta para coletar, filtrar e visualizar questões de exames, com foco no ENEM e em concursos.
 
-## Objetivo do prototipo
+## Objetivo do protótipo
 
-- Coletar questoes de uma fonte web.
+- Coletar questões de uma fonte na web.
 - Filtrar por disciplina, assunto, dificuldade e ano.
 - Exibir os resultados em uma interface interativa.
 - Separar os fluxos de concursos e ENEM.
@@ -18,16 +18,16 @@ Este repositorio registra a proposta de uma ferramenta para coletar, filtrar e v
 
 ## Status atual
 
-Este repositorio e uma especificacao/documentacao de prototipo. A branch `main` atualmente contem apenas este README e a licenca MIT; nao existe uma aplicacao executavel publicada aqui.
+Este repositório é uma especificação/documentação de protótipo. A branch `main` atualmente contém apenas este README e a licença MIT; não existe uma aplicação executável publicada aqui.
 
-## Proximos passos
+## Próximos passos
 
 - Definir a fonte de dados e seus limites de uso.
-- Implementar o coletor com tratamento de erros e rate limiting.
-- Adicionar os filtros na interface Streamlit.
-- Criar testes para a construcao de URLs e o parsing das respostas.
-- Documentar a origem e a forma de atualizacao dos dados.
+- Implementar o coletor com tratamento de erros e limitação de requisições.
+- Adicionar os filtros à interface Streamlit.
+- Criar testes para a construção de URLs e o parsing das respostas.
+- Documentar a origem e a forma de atualização dos dados.
 
-## Observacao
+## Observação
 
 Antes de automatizar qualquer coleta, verifique os termos de uso e as regras de acesso do site consultado.
